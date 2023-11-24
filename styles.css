@@ -1,0 +1,171 @@
+
+footer{
+    background-color: rgba(110, 3, 3, 0.712);
+    color: #4fcc06;
+}
+header{
+    background-image: linear-gradient(rgb(35, 6, 48), rgb(16, 6, 43));
+    color: #ffffff;
+}
+.sidebar{
+    background-color: #2b2626;
+}
+
+
+body, h1, h2, p, ul, li, address {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    justify-content: center;
+}
+#PAGINA0 {
+    background-image: url(img/fondo1.jpg);
+    background-size:cover;
+}
+#PAGINA1{
+    background-image: url(img/fondo2.jpg);
+    background-size: cover;
+}
+#PAGINA2{
+    background-image: url(img/fondo3.jpg);
+    background-size: cover;
+}
+#PAGINA3{
+    background-image: url(img/fondo4.jpg);
+    background-size: cover;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav li a {
+    transition: font-size 0.1s ease-in-out;
+  }
+  
+  nav li a:hover {
+    font-size: 1.25em;
+  }
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+    background-color: #fff;
+    margin: 20px;
+}
+.imgs{
+    padding: 40px;
+    margin: 40px;
+    border-radius: 20px;
+    border: 5px dashed tomato;
+    align-items: center;
+    text-align: center;
+}
+.imgs img{
+    width: 600px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    font-size: large;
+    column-count: 3;
+    margin: 0;
+}
+
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+ul {
+    list-style: disc;
+}
+.sidebar {
+    float: right;
+    width: 25%;
+    padding-top:20px;
+    position: fixed;
+    margin-top: 400px;
+    right: 0px;
+}
+html {
+    scroll-behavior: smooth;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    border: 16px ridge tomato;
+    border-radius: 0px 60px 0px 60px;
+    background-image: linear-gradient(rgb(174, 0, 255), yellow);
+    
+}
+section{
+    border-radius: 30px;
+    margin: 20px;
+    padding: 40px;
+    width: 60%;
+    background-color: antiquewhite;
+
+}
+section img{
+    width: 300px;
+    border-radius: 20px;
+    top: 0;
+    display: inline-block;
+}
+#subtitulo{
+    color: aliceblue;
+    background-color: #333;
+}
+.contacto{
+    background-image: linear-gradient(#e00e0e, #e0cb0e);
+    text-align: center;
+    font-size: 1.5em;
+    color: aliceblue;
+    padding: 250px;
+    margin: 60px;
+    border-radius: 150px;
+    font-weight: bolder;
+}
+.video-cont{
+    display: inline-block;
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 80px;
+    text-align: center;
+    justify-content: center;
+}
+
+.vid{
+    border: 20px inset burlywood;
+    border-radius: 20px;
+    text-align: center;
+}
+.center{
+    align-items: center;
+    justify-content: center;
+    text-align: center  ;
+}
